@@ -1,50 +1,11 @@
 # chrome-extension-auth
 A Chrome extension for user authentication.
-I'm unable to directly create a new project in your GitHub account. However, I can guide you through the process of creating a new repository for your Chrome extension project. Here are the steps:
+Here are the steps:
 
-### Step 1: Create a New Repository
 
-1. **Log in to GitHub:** Go to [GitHub](https://github.com) and log in with your account.
+### Step 1: Add Project Files
 
-2. **New Repository:**
-   - Click on the `+` icon in the top right corner of the page.
-   - Select `New repository`.
-
-3. **Repository Details:**
-   - **Repository Name:** Enter a name for your project, e.g., `chrome-extension-auth`.
-   - **Description:** Optionally, add a description, e.g., `A Chrome extension for user authentication`.
-   - **Public/Private:** Choose whether you want the repository to be public or private.
-   - **Initialize Repository:** Check the box to initialize the repository with a README file.
-
-4. **Create Repository:** Click the `Create repository` button.
-
-### Step 2: Clone the Repository Locally
-
-1. **Clone the Repository:**
-   - Open a terminal or command prompt.
-   - Clone the repository using the following command (replace `YOUR_USERNAME` with your GitHub username):
-
-     ```sh
-     git clone https://github.com/YOUR_USERNAME/chrome-extension-auth.git
-     ```
-
-2. **Navigate to the Project Directory:**
-
-   ```sh
-   cd chrome-extension-auth
-   ```
-
-### Step 3: Add Project Files
-
-1. **Create the project structure:**
-
-   ```sh
-   mkdir chrome-extension-auth
-   cd chrome-extension-auth
-   touch manifest.json background.js popup.html popup.js
-   ```
-
-2. **Add the following content to each file:**
+1. **Add the following content to each file:**
 
 - `manifest.json`:
 
@@ -134,26 +95,11 @@ I'm unable to directly create a new project in your GitHub account. However, I c
   });
   ```
 
-### Step 4: Commit and Push the Changes
-
-1. **Commit the changes:**
-
-   ```sh
-   git add .
-   git commit -m "Initial commit - Added Chrome extension files"
-   ```
-
-2. **Push the changes to GitHub:**
-
-   ```sh
-   git push origin main
-   ```
-
-### Step 5: Add Icons
+### Step 2: Add Icons
 
 Don't forget to add icons for your extension. You can create `icon16.png`, `icon48.png`, and `icon128.png` or download them from an icon resource website and place them in the root directory of your project.
 
-### Step 6: Load and Test the Extension
+### Step 3: Load and Test the Extension
 
 1. **Open Chrome and go to `chrome://extensions/`.**
 2. **Enable "Developer mode" by toggling the switch in the top right corner.**
